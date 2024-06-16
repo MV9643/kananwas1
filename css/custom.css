@@ -1,0 +1,386 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* ------------------previous code 
+--------------------------- */ 
+.clr{
+  color: #195d81;
+ 
+}
+
+.scrollable-row {
+  display: flex;
+  overflow-x: auto;  
+ }
+
+.scrollable-row::-webkit-scrollbar {
+  display: none;
+ }
+
+
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+ /* this is for solving the prblm of space between stay section and first vdo slider .  */
+.content-wrap {
+  padding: 0;
+}
+
+/* cards text styling  */
+/* .features-list {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.features-list li {
+   margin-bottom: 5px;
+    padding-left: 15px;  
+    position: relative; 
+}
+
+.features-list li::before {
+  content: "•";
+  color: #195d81;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  text-align: right;
+} */
+
+
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+.default-color-blue { 
+	color: #195d81 !important;
+}
+
+.oc-item {
+    height: 500px; /* Default height */
+}
+
+a:hover {
+	color: #aeb399 !important;/* Your desired color code */
+  }
+  .uil:hover {
+	color: #aeb399 !important;/* Your desired color code */
+  } 
+  
+  /* card  */
+  .card-img-top {
+    height: 15rem;
+  }
+ 
+  /* Social Icons - Sticky
+-----------------------------------------------------------------*/
+/* Social Icons - Sticky Right
+  -----------------------------------------------------------------*/
+  .si-sticky {
+    position: fixed;
+    top: 80%;
+    left: 5px;
+    width: 36px;
+    z-index: 499;
+    transform: translateY(-50%);
+    /* Social Icons - Sticky Right
+    -----------------------------------------------------------------*/
+  }
+  .si-sticky.si-sticky-right {
+    left: auto;
+    right: 8px;
+  }
+
+
+  
+/* Responsive styles */
+@media (max-width: 991.98px) {
+  .si-sticky {
+    display: block; /* Show the button */
+    position: fixed; /* Change the position to fixed */
+    bottom: 20px; /* Adjust the position from the bottom */
+    right: 20px; /* Adjust the position from the right */
+    top: auto; /* Reset the top property */
+    z-index: 1000; /* Ensure the button is above other content */
+  }
+}
+
+
+
+#content {
+  margin-top: 0;
+   padding-top: 0;
+   
+}
+
+ 
+
+#room-carousel .owl-next {
+  position: absolute;
+  top: 50%;
+  right: -40px; /* Adjust this value to move the button more to the right */
+  transform: translateY(-50%);
+  /* background-image: url('path_to_your_next_button_image.png'); */
+
+}
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+/* //////////  */
+.hero-wine-img,
+.hero-bg {
+	position: relative;
+	z-index: 1;
+	height: 100%;
+}
+
+.negative-text-margin {
+	mix-blend-mode: difference;
+}
+
+@media (min-width: 991px) {
+	.hero-wine-img {
+		max-width: 60%;
+		position: absolute;
+		top: 0;
+		right:0;
+		z-index: auto;
+	}
+
+	.hero-bg {
+		max-width: 47%;
+		z-index: 1;
+		height: 90%;
+	}}
+
+  .slider-element{
+    margin-top: 40px;
+    color: #195d81;
+    margin-bottom: 2rem; /* Add margin to separate sections */
+
+
+  }
+
+  .slider-element h1,h6{
+     color: #195d81;
+  }
+ 
+#hdng1{
+  color: #195d81;
+
+}
+#hdng2{
+  color: #195d81;
+
+}
+#hdng3{
+  color: #195d81;
+
+}
+
+#hdng4{
+  color: #195d81;
+
+}
+  
+  .custom-width {
+    max-width: 78%;
+    width: 100%;
+    object-fit: cover;
+  }
+/*   
+  .custom-widt1 {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+   } */
+  @media (min-width: 768px) {
+    .custom-width {
+      width: 200%; /* Adjust this value as needed */
+    }
+  }
+  
+
+
+       
+  .fslider {
+    position: relative;
+  }
+  .flexslider {
+    max-width: 100%;
+    /* max-height: 75vh; Set maximum height for the slider to 75% of viewport height */
+    overflow: hidden; /* Hide overflow to maintain height */
+  }  
+
+
+
+
+
+
+.custom-img {
+    width: 100%; /* Ensures the image takes the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Adjust as needed to increase size */
+.row.mb-6 .col-12.col-md-5 img,
+.row.mb-6 .col-12.col-md-7 img,
+.row.mb-6 .col-12.col-md-6 img {
+    max-width: 100%; /* Adjust as needed for larger images */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+
+
+ 
+ /* ///////////////////// new design  */
+ /* Align paragraphs to left and right */
+.col-12.col-md-5 p,
+.col-12.col-md-5 ul {
+    text-align: justify;
+}
+
+.col-12.col-md-5 ul {
+    margin-right: 20px; /* Add some margin to separate from the right-aligned text */
+}
+
+.fw-normal{
+  margin-left: 20px; /* Add some margin to separate from the right-aligned text */
+
+}
+
+
+
+ 
+/* amenities bullet points  */
+
+.ul1 {
+  list-style-type: none;
+  padding: 0;
+}
+.li1 {
+  display: inline-block;
+  margin-right: 20px; /* Adjust the spacing between amenities */
+}
+.li1:before {
+  content: "•"; /* Use a dot point */
+  margin-right: 5px; /* Add some space between the dot and the text */
+}
+
+
+.paragraph1, .heading1 {
+  margin-top: 60px; /* Adjust as needed */
+
+}
+ 
+
+/* section / 1 */ 
+
+.amenities-section {
+  background-color: #d3d9bd;
+  padding: 30px; 
+  padding-bottom: 40px;
+  margin: 5px 0; /* Added margin for spacing */
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+}
+.amenities-section h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.amenities-list {
+  list-style-type: disc;
+  columns: 2; /* Makes two columns */
+}
+.amenities-list li {
+  margin-bottom: 10px;
+}
+
+.content-section {
+  padding: 30px 0;
+}
+.content-section h4 {
+  font-weight: bold;
+}
+.content-section p {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.slider-wrap img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  max-height: 75vh; /* Ensure images do not exceed max height */
+ object-fit: cover; /* Ensure the image covers the slider without stretching */
+
+} 
+
+.parrgraphg1 {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0 2rem; /* Add padding to reduce width from both sides */
+}
+
+
+
+
+
+/* Add this to your CSS to center the navigation buttons vertically on the sides */
+.fslider.flexslider .flex-prev, .fslider.flexslider .flex-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* /////////////// // */
+/* icons by sandeep  */ 
+ 
+
+/* .clr {
+  color: blue;
+} */
+
+.phonee{
+  color: #195d81;
+}
+.phonee:hover{
+  color:#1d96e6 !important ;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* now all css is for seo  //////////////////////////////////////////////////////////////////////////////////////  */
+ 
